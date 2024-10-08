@@ -8,7 +8,7 @@ library("caret")
 install.packages("vcd")
 library("vcd")
 
-wbcd<-read.csv("E:/B.tech 7 Semester/Predictive analysis int 234/wisc_bc_data.csv")
+wbcd<-read.csv("E:/wisc_bc_data.csv")
 dim(wbcd)
 wbcd <- wbcd[-1]
 str(wbcd)
